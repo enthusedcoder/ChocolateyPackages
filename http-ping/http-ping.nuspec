@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>http-ping</id>
+    <version>10.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/http-ping</packageSourceUrl>
+    <owners>DemonDante</owners>
+    <title>http-ping (Install)</title>
+    <authors>CORE TECHNOLOGIES CONSULTING, LLC</authors>
+    <projectUrl>https://www.coretechnologies.com/products/http-ping/</projectUrl>
+    <licenseUrl>https://www.coretechnologies.com/company/Core-Technologies-Consulting_Freeware-License-Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>http-ping</tags>
+    <summary>http-ping is a small, free, easy-to-use Windows command line utility that probes a given URL and displays relevant statistics.</summary>
+    <description>http-ping is a small, free, easy-to-use Windows command line utility that probes a given URL and displays relevant statistics. It is similar to the popular ping utility, but works over HTTP/S instead of ICMP, and with a URL instead of a computer name/IP address. http-ping supports IPv6 addresses.  For each request, http-ping displays:
+	
+	- The HTTP return code (and its brief textual description)
+	- The number of bytes returned by the server (excluding headers)
+	- The time taken to complete the request (i.e. round-trip time)
+	
+	</description>
+    <releaseNotes>https://www.coretechnologies.com/products/http-ping/VersionHistory.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

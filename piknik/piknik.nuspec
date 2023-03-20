@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>piknik</id>
+    <version>0.9.1</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/piknik</packageSourceUrl>
+    <owners>aficklecoder</owners>
+    <title>piknik (Install)</title>
+    <authors>Frank Denis</authors>
+    <projectUrl>https://github.com/jedisct1/piknik/tree/0.9.1</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/2fa76b90/icons/piknik.png</iconUrl>
+    <licenseUrl>https://github.com/jedisct1/piknik/blob/0.9.1/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jedisct1/piknik/tree/0.9.1</projectSourceUrl>
+    <tags>piknik Copy/paste network</tags>
+    <summary>Ever needed a copy/paste clipboard that works over the network?
+
+Piknik seamlessly and securely transfers URLs, code snippets, documents, virtually anything between arbitrary hosts.
+
+No SSH needed, and hosts can sit behind NAT gateways, on different networks.</summary>
+    <description>Ever needed a copy/paste clipboard that works over the network?
+
+Piknik seamlessly and securely transfers URLs, code snippets, documents, virtually anything between arbitrary hosts.
+
+No SSH needed, and hosts can sit behind NAT gateways, on different networks.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cyotek-webcopy</id>
+    <version>1.8.3.768</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/cyotek-webcopy</packageSourceUrl>
+    <owners>DemonDante</owners>
+    <title>cyotek-webcopy (Install)</title>
+    <authors>Cyotek</authors>
+    <projectUrl>https://www.cyotek.com/cyotek-webcopy</projectUrl>
+    <iconUrl>https://www.cyotek.com/files/producticons/cyowcopy.png</iconUrl>
+    <copyright>1994-2021 Cyotek Ltd.</copyright>
+    <licenseUrl>https://www.cyotek.com/cyotek-webcopy/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://docs.cyotek.com/cyowcopy/current/</docsUrl>
+    <tags>cyotek-webcopy web copy</tags>
+    <summary>Cyotek WebCopy is a free tool for automatically downloading the content of a website onto your local device.</summary>
+    <description>Cyotek WebCopy is a free tool for automatically downloading the content of a website onto your local device.
+
+WebCopy will scan the specified website and download its content. Links to resources such as style-sheets, images, and other pages in the website will automatically be remapped to match the local path. Using its extensive configuration you can define which parts of a website will be copied and how, for example you could make a complete copy of a static website for offline browsing, or download all images or other resources.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

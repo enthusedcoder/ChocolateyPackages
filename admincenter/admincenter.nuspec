@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>admincenter</id>
+    <version>1.1.1804.05002</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/admincenter</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>admincenter (Install)</title>
+    <authors>Microsoft Corporation</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/understand/windows-admin-center#download-nowhttpakamswacdownload</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/1ada2aec/icons/Product_black.png</iconUrl>
+    <docsUrl>https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/overview</docsUrl>
+    <tags>admin center Windows</tags>
+    <summary>Windows Admin Center is an evolution of Windows Server in-box management tools; it’s a single pane of glass that consolidates all aspects of local and remote server management.</summary>
+    <description>Windows Admin Center is an evolution of Windows Server in-box management tools; it’s a single pane of glass that consolidates all aspects of local and remote server management. As a locally deployed, browser-based management experience, an Internet connection and Azure aren’t required. Windows Admin Center gives you full control of all aspects of your deployment, including private networks that aren’t Internet-connected.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

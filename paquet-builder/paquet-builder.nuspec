@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>paquet-builder</id>
+    <version>20.1.0.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/paquet-builder</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>paquet-builder (Install)</title>
+    <authors>G.D.G. Software</authors>
+    <projectUrl>https://www.installpackbuilder.com/</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/pbicon40.png</iconUrl>
+    <copyright>2020  G.D.G. Software</copyright>
+    <docsUrl>https://www.installpackbuilder.com/help/</docsUrl>
+    <bugTrackerUrl>https://www.gdgsoft.info/</bugTrackerUrl>
+    <tags>paquet-builder Self-Extracting archive installer creator</tags>
+    <summary>Paquet Builder is a mix between an installer software and an advanced Self-Extracting 7z (7zip archive) tool.  Create compact and fully-customized Windows installer packages and Self-extracting archives for professional file and software delivery.</summary>
+    <description>Paquet Builder is a mix between an installer software and an advanced Self-Extracting 7z (7zip archive) tool.  Create compact and fully-customized Windows installer packages and Self-extracting archives for professional file and software delivery.
+	
+	Paquet Builder supports the following features:
+
+* Compress your files and software into compact installer packages
+* Customize behavior and look of your installers and packages
+* Have total control over behavior and functionality of installers and SFX packages
+* Protect your installers and ensure integrity of their contents
+* Create multilanguage distributions and Self-Extracting packages
+* Batch Build and Automation Support
+* Easily design your packages and installers</description>
+    <dependencies>
+      <dependency id="autoit.commandline" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

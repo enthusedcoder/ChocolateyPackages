@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>powershellcore</id>
+    <version>6.0.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/powershell</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>powershellcore (Install)</title>
+    <authors>Microsoft PowerShell Team</authors>
+    <projectUrl>https://github.com/PowerShell/PowerShell</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/835be00b/icons/powershell.png</iconUrl>
+    <licenseUrl>https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/PowerShell/PowerShell</projectSourceUrl>
+    <docsUrl>https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6</docsUrl>
+    <bugTrackerUrl>https://windowsserver.uservoice.com/forums/301869-powershell</bugTrackerUrl>
+    <tags>powershell core</tags>
+    <summary>PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.</summary>
+    <description>PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>easyrsa</id>
+    <version>3.0.7</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/easyrsa</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>easyrsa (Install)</title>
+    <authors>OpenVPN</authors>
+    <projectUrl>https://github.com/OpenVPN/easy-rsa</projectUrl>
+	<licenseUrl>https://github.com/OpenVPN/easy-rsa/blob/master/COPYING.md</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://tr1.cbsistatic.com/hub/i/2016/11/10/5e376a71-b4fa-4f14-823d-4eadf0b79f69/openvpnhero.jpg</iconUrl>
+    <copyright>Year Software Vendor</copyright>
+    <projectSourceUrl>https://github.com/OpenVPN/easy-rsa</projectSourceUrl>
+    <docsUrl>https://github.com/OpenVPN/easy-rsa/blob/master/README.quickstart.md</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/openvpn-users</mailingListUrl>
+    <bugTrackerUrl>https://github.com/OpenVPN/easy-rsa/issues</bugTrackerUrl>
+    <tags>easyrsa PKI CA certificates SSL TLS</tags>
+    <summary>easy-rsa is a CLI utility to build and manage a PKI CA. In laymen's terms, this means to create a root certificate authority, and request and sign certificates, including intermediate CAs and certificate revocation lists (CRL).</summary>
+    <description>easy-rsa is a CLI utility to build and manage a PKI CA. In laymen's terms, this means to create a root certificate authority, and request and sign certificates, including intermediate CAs and certificate revocation lists (CRL).</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

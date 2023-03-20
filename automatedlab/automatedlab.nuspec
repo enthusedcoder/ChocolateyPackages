@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>automatedlab</id>
+    <version>5.39.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/automatedlab</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>automatedlab (Install)</title>
+    <authors>Raimund Andrée, Jan-Hendrik Peters</authors>
+    <projectUrl>https://github.com/AutomatedLab</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/autolab.png</iconUrl>
+    <licenseUrl>https://github.com/AutomatedLab/AutomatedLab/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/AutomatedLab/AutomatedLab</projectSourceUrl>
+    <docsUrl>https://automatedlab.org/en/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/AutomatedLab/AutomatedLab/issues</bugTrackerUrl>
+    <tags>automatedlab automate automation lab vm</tags>
+    <summary>AutomatedLab (AL) enables you to setup test and lab environments on Hyper-v or Azure with multiple products or just a single VM in a very short time. There are only two requirements you need to make sure: You need the DVD ISO images and a Hyper-V host or an Azure subscription.</summary>
+    <description>## Project Summary
+
+AutomatedLab (AL) enables you to setup test and lab environments on Hyper-v or Azure with multiple products or just a single VM in a very short time. There are only two requirements you need to make sure: You need the DVD ISO images and a Hyper-V host or an Azure subscription.
+
+### Requirements
+
+Apart from the module itself your system needs to meet the following requirements:
+
+- Windows Management Framework 5+ (Windows)
+- .NET 4.7.1 (Windows PowerShell) or .NET Core 2.x (PowerShell 6+)
+- Windows Server 2012 R2+/Windows 8.1+ (Hyper-V, Azure) or Linux (Azure)
+- Recommended OS language is en-us
+- Admin privileges are required
+- ISO files for all operating systems and roles to be deployed
+- Intel VT-x or AMD/V capable CPU
+- A decent amount of RAM
+- Low-Latency high-throughput storage (No spinning disks please, as there are issues related to them)
+
+#### Windows
+
+- Windows Management Framework 5+
+- Windows Server 2012 R2+/Windows 8.1+
+- Recommended OS language is en-us
+- Admin privileges are required
+
+#### Linux
+
+- WSL supported, Azure Cloud Shell supported
+- Tested on Fedora and Ubuntu, should run on any system capable of running PowerShell
+- PowerShell 6+
+- gss-ntlmssp to enable remoting (mandatory - no remoting, no way for AutomatedLab to do its thing)
+- ip and route commands available
+- Azure subscription - At the moment, AutomatedLab only works using Azure. KVM is planned for a later date.
+</description>
+    <dependencies>
+      <dependency id="powershell" />
+      <dependency id="netfx-4.7.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

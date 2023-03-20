@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>quickcpu</id>
+    <version>4.5.1.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/quickcpu</packageSourceUrl>
+    <owners>DemonDante</owners>
+    <title>quickcpu (Install)</title>
+    <authors>Coder Bag</authors>
+    <projectUrl>https://coderbag.com/</projectUrl>
+    <iconUrl>https://coderbag.com/assets/img/application-logo-a-min.png</iconUrl>
+    <copyright>CoderBag - © Copyright 2022</copyright>
+    <docsUrl>https://coderbag.com/product/quickcpu</docsUrl>
+    <tags>quickcpu CPU Core Parking</tags>
+    <summary>Quick CPU is a program that was designed to fine-tune and monitor important CPU and System parameters such as CPU Temperature (Package and Core Temp), CPU Performance, Power, Voltage, Current, Core Parking, Frequency Scaling, System Memory, Turbo Boost, C-States, Speed Shift FIVR Control as well as making other adjustments</summary>
+    <description>Quick CPU is a program that was designed to fine-tune and monitor important CPU and System parameters such as CPU Temperature (Package and Core Temp), CPU Performance, Power, Voltage, Current, Core Parking, Frequency Scaling, System Memory, Turbo Boost, C-States, Speed Shift FIVR Control as well as making other adjustments</description>
+    <releaseNotes># **Quick CPU**  Release notes for version - 4.5.1.0
+
+**Release date: Nov 25, 2022**
+
+## **Highlights**
+
+
+**Below are the highlights for version 4.5.1.0**
+
+_Some of the features are CPU dependent and wont be available in your version of the CPU._
+
+-   Fix SVI address for several AMD Ryzen models
+-   Enhance support for AMD Ryzen PRO processors
+-   Fix inconsistent versioning for msi installer
+-   Fix support for NVMe drives
+-   Minor UI changes
+</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.6.1" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

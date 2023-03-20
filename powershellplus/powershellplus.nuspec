@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>powershellplus</id>
+    <version>11.50.0.42618</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/powershellplus</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>Idera Powershell Plus</title>
+    <authors>Idera Software</authors>
+    <projectUrl>https://www.idera.com/productssolutions/freetools/powershellplus</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/783fb1bc/powershellplus/icon/2017-07-31%2001_55_52-willserver.higgsw.local%20-%20MultiDesk.png</iconUrl>
+    <docsUrl>https://www.idera.com/resourcecentral</docsUrl>
+    <tags>idera powershell plus</tags>
+    <summary>A PowerShell IDE which offers numerous unique and helpful features</summary>
+    <description>PowerShell Plus is an advanced Interactive Development Environment for PowerShell. Designed to help administrators and developers quickly learn and master Windows PowerShell, it also dramatically increases the productivity of expert users.  PowerShell Plus features a powerful interactive console, an advanced script editor and debugger and a comprehensive interactive learning center all integrated into a single product. Try PowerShell Plus today and see how much more productive you can be.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

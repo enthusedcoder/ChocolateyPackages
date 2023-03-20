@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>adminservice</id>
+    <version>2.4</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/adminservice</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>adminservice (Install)</title>
+    <authors>PouetPouet</authors>
+    <projectUrl>https://www.majorgeeks.com/files/details/adminservice.html</projectUrl>
+    <tags>adminservice</tags>
+    <summary>AdminService is a small service that regularly checks whether the specified (domain or local) account is present in the local administrator's group. If it is not there, it adds it.</summary>
+    <description>AdminService is a small service that regularly checks whether the specified (domain or local) account is present in the local administrator's group. If it is not there, it adds it.
+
+In some companies, users are not natively administrators of their workstations. This practice is quite standard for security purposes as well as overall control, but it can be very frustrating for those that work within. Some, however, officially offer a procedure, generally tedious, to temporarily obtain admin rights for a specific need. For instance, company XYZ uses Windows 10 Enterprise workstations; admins can retrieve, via an intranet site, the password of the local administrator account, which are valid for 24 hours. So every day, you have to request each PC that you use. Then, when you want to execute an action requiring administrator rights (to open the task manager) in the UAC window, select "More choices" then "Use a different account," specify the user ".\Administrator" for a password previously retrieved. This whole process is tedious, especially when you have to do it multiple times a day in a network environment. You could add your account to the administrator's group, but a GPO will reset the group daily.
+
+AdminService is a small workaround for this. Thanks to this, you no longer need to recover the password for the local administrator account. And no longer need to specify the administrator account and its password in the UAC window. When UAC popup appears, just click on "Yes" to accept elevation.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

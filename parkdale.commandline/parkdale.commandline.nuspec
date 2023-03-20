@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>parkdale.commandline</id>
+    <version>1.01</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/parkdale.commandline</packageSourceUrl>
+    <owners>DemonDante</owners>
+    <title>parkdale.commandline</title>
+    <authors>the sz development</authors>
+    <projectUrl>https://www.the-sz.com/products/parkdale/</projectUrl>
+    <iconUrl>https://the-sz.com/products/parkdale/parkdale_icon.png</iconUrl>
+    <licenseUrl>https://www.the-sz.com/products/license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>parkdale.commandline commandline disk benchmark</tags>
+    <summary>Get the read and write speed from your harddisks, cdrom devices and network servers in Kilobyte, Megabyte or even Gigabyte per Second.</summary>
+	<description>Get the read and write speed from your harddisks, cdrom devices and network servers in Kilobyte, Megabyte or even Gigabyte per Second.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

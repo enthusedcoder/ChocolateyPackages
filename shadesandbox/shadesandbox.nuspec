@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shadesandbox</id>
+    <version>1.6</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/shadesandbox</packageSourceUrl>
+    <owners>ficklecoder</owners>
+    <title>shadesandbox (Install)</title>
+    <authors>Cybergenic Corporation</authors>
+    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/712797cd/icons/esc_setup.png</iconUrl>
+    <copyright>2018</copyright>
+    <tags>shade sandbox</tags>
+    <summary>Shade Sandbox provides you with protection against threats by locally virtualizing applications and locking out potential viruses as well as incoming internet files within a safe environment. This process is evidenced by other popular virtual machine software such as Sandboxie, but Shade Sandbox proves to be a bit easier to use. The goal remains the same - to keep your primary use system isolated from threats and clean of malware. In a typical non-sandbox environment, when you browse the internet, your anti-virus filters are your computer’s main protection against malware. If your virus scan happens to miss a Trojan when it infects your computer, then you'll be in for some long-term grief. However, the simulated environment of sandboxes ensures that malicious content cannot access your computer system. So they are kept isolated, and once you disengage from the virtual machine any of traces those threats are wiped clean. Shade Sandbox will give you the confidence you need to go and do whatever you want without the worry of damaging your system - potentially wasting time and money to recover from infection.</summary>
+    <description>Shade Sandbox provides you with protection against threats by locally virtualizing applications and locking out potential viruses as well as incoming internet files within a safe environment. This process is evidenced by other popular virtual machine software such as Sandboxie, but Shade Sandbox proves to be a bit easier to use. The goal remains the same - to keep your primary use system isolated from threats and clean of malware. In a typical non-sandbox environment, when you browse the internet, your anti-virus filters are your computer’s main protection against malware. If your virus scan happens to miss a Trojan when it infects your computer, then you'll be in for some long-term grief. However, the simulated environment of sandboxes ensures that malicious content cannot access your computer system. So they are kept isolated, and once you disengage from the virtual machine any of traces those threats are wiped clean. Shade Sandbox will give you the confidence you need to go and do whatever you want without the worry of damaging your system - potentially wasting time and money to recover from infection.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

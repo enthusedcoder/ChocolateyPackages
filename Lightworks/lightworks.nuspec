@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lightworks</id>
+    <version>2021.1 </version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/Lightworks</packageSourceUrl>
+    <owners>DemonDante</owners>
+    <title>Lightworks (Install)</title>
+    <authors>LWKS Software Ltd</authors>
+    <projectUrl>https://www.lwks.com/index.php?option=com_content&amp;view=article&amp;id=98&amp;Itemid=209</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/lightworks.png</iconUrl>
+    <copyright>LWKS 2021</copyright>
+    <licenseUrl>https://cdn.lwks.com/docs/2020.1.1/Lightworks%20License%20Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.lwks.com/index.php?option=com_lwks&amp;view=download&amp;Itemid=206&amp;tab=4</docsUrl>
+    <tags>lightworks video editor</tags>
+    <summary>Lightworks provides the power of an Academy and Emmy award-winning video editing software in a simple to use package to create your own video masterpieces.</summary>
+    <description>Lightworks provides the power of an Academy and Emmy award-winning video editing software in a simple to use package to create your own video masterpieces.</description>
+    <releaseNotes>https://cdn.lwks.com/docs/2021.1/Lightworks+2021.1+Release+Notes.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

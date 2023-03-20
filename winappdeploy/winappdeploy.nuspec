@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winappdeploy</id>
+    <version>10.0.0.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/winappdeploy</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>winappdeploy (Install)</title>
+    <authors>Microsoft</authors>
+    <tags>winappdeploy</tags>
+    <summary>Command line tool to deploy windows store apps</summary>
+    <description>Command line tool to deploy windows store apps</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

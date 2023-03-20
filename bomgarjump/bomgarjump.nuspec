@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bomgarjump</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/bomgarjump</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>bomgarjump (Install)</title>
+    <authors>BomGar</authors>
+    <projectUrl>https://www.bomgar.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/e32fe1d3/icons/bomgar-rep-installer.png</iconUrl>
+    <tags>bomgar jump</tags>
+    <summary>Bomgar jump package</summary>
+    <description>Bomgar jump package</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

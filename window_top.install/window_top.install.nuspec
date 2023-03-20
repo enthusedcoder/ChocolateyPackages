@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>window_top.install</id>
+    <version>1.9.2</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/window_top.install</packageSourceUrl>
+    <owners>William</owners>
+    <title>windowtop</title>
+    <authors>bigilsoft</authors>
+    <projectUrl>http://windowtop.info/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/b0ada789/icons/WindowTop.png</iconUrl>
+    <tags>window top</tags>
+    <summary>Set window on top, make it dark, make it transparent and more</summary>
+    <description>With WindowTop (FREE for Windows 7 - 10 , 64bit only) you can pin any window on top of other windows, enable window transparency (So you can see through the window) and even click through transparent window.  WindowTop also come with exclusive features such as "Shrink Window" - innovative way to minimize windows, And the dark/read mode.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

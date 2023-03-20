@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bomgar_autoelevate</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/bomgar_autoelevate</packageSourceUrl>
+    <owners>William</owners>
+    <title>bomgar_autoelevate (Install)</title>
+    <authors>Bomgar</authors>
+    <projectUrl>https://www.bomgar.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/f100a7ec/icons/bomgar-rep-installer.png</iconUrl>
+    <tags>bomgar autoelevate</tags>
+    <summary>Installs service which auto-elevates a bomgar session</summary>
+    <description>Installs service which auto-elevates a bomgar session</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rsat</id>
+    <version>1.0.0</version>
+    <owners>William Higgs</owners>
+    <title>RSAT (Install)</title>
+    <authors>Microsoft Corporation</authors>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/a58af8da/icons/rsat.png</iconUrl>
+    <tags>rsat</tags>
+    <summary>Remote server administration tools for Windows 10.</summary>
+    <description>Remote server administration tools for Windows 10.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

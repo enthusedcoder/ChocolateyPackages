@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mediainfoxp</id>
+    <version>18.3.1</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/mediainfoxp</packageSourceUrl>
+    <owners>aficklecoder</owners>
+    <title>mediainfoxp CLI (Portable)</title>
+    <authors>lordmulder</authors>
+    <projectUrl>http://muldersoft.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/3f07721b/icons/MediaInfoXP.png</iconUrl>
+    <licenseUrl>https://github.com/lordmulder/mediainfo-gui</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/lordmulder/mediainfo-gui</projectSourceUrl>
+    <tags>mediainfoxp commandline</tags>
+    <summary>GUI for MediaInfo, an OpenSource tool for displaying technical information about media files.  Also comes with a command line interface.</summary>
+    <description>GUI for MediaInfo, an OpenSource tool for displaying technical information about media files.  Also comes with a command line interface.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

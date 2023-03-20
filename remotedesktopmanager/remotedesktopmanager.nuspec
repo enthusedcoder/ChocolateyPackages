@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>remotedesktopmanager</id>
+    <version>4.0.4.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/remotedesktopmanager</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>remote desktop manager (Install)</title>
+    <authors>Devolutions</authors>
+    <projectUrl>https://remotedesktopmanager.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/55f54c8e/icons/desktop.png</iconUrl>
+    <copyright>2017</copyright>
+    <tags>remote desktop manager SPACE_SEPARATED</tags>
+    <summary>Remote Desktop Manager lets you centralize all your remote connections, passwords and credentials into a unique platform that can be securely shared between users.</summary>
+    <description>Remote Desktop Manager lets you centralize all your remote connections, passwords and credentials into a unique platform that can be securely shared between users. Drive security, speed and productivity through your organization while reducing risks for your IT department. Join over 300 000 users in more than 130 countries who enjoy our remote connection management solution.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cloudapp</id>
+    <version>6.3.1.122</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/cloudapp</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>cloudapp (Install)</title>
+    <authors>CloudApp</authors>
+    <projectUrl>https://www.getcloudapp.com/</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/cloudapp.png</iconUrl>
+    <copyright>2021 CloudApp</copyright>
+    <tags>cloudapp screen record annotate image gif</tags>
+    <summary>CloudApp is an all-in-one screen recording software to capture and embed HD video, screen recordings, GIFs, screencasts, screenshots and marked up images throughout business workflows.</summary>
+	<description>CloudApp is an all-in-one screen recording software to capture and embed HD video, screen recordings, GIFs, screencasts, screenshots and marked up images throughout business workflows.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

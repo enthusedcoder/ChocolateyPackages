@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ruckzuck_systemcenter</id>
+    <version>1.5.1.8</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/ruckzuck_systemcenter</packageSourceUrl>
+    <owners>William</owners>
+    <title>ruckzuck_systemcenter (Install)</title>
+    <authors>Roger Zander</authors>
+    <projectUrl>http://ruckzuck.tools/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/c7c4aed8/icons/RuckZuck.png</iconUrl>
+    <copyright>2017</copyright>
+    <licenseUrl>https://github.com/rzander/ruckzuck/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>ruckzuck systemcenter</tags>
+    <summary>RuckZuck is a free Software Package Manager for Windows, designed to keep the Software on your System(s) up to date even if the Software was not installed with RuckZuck.</summary>
+    <description>The Tool provides an easy graphical User-Interface to install or upgrade software with just a few clicks. It also provides a wizard to create and upload new Software entries to the repository. So if you miss a software, create a new record!
+	RuckZuck for Configuration Manager is a Solution to import Software from the RuckZuck repository into System Center Configuration Manager (2012 + CurrentBranch ).
+
+The created Applications do not require RuckZuck or any other tools as prerequisite and you can modify the installations scripts (PowerShell) to customize the installations.
+	</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>boxcli</id>
+	<version>1.2.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/boxcli</packageSourceUrl>
+    <owners>William Higgs</owners>
+    <title>box Command line interface</title>
+    <authors>Box</authors>
+    <projectUrl>https://github.com/box/boxcli</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/eb219690/icons/box.png</iconUrl>
+	<projectSourceUrl>https://github.com/box/boxcli</projectSourceUrl>
+    <tags>box commandline</tags>
+    <summary>A command line interface to interact with the Box api</summary>
+    <description>A command line interface to interact with the box api</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

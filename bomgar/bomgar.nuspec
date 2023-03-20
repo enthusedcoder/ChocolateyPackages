@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bomgar</id>
+    <version>16.1.4</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/bomgar</packageSourceUrl>
+    <owners>wmh02</owners>
+    <title>bomgar (Install)</title>
+    <authors>Bomgar Corporation</authors>
+    <projectUrl>https://www.bomgar.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/f100a7ec/icons/bomgar-rep-installer.png</iconUrl>
+    <tags>bomgar remote desktop</tags>
+    <summary>Remote Desktop Software</summary>
+    <description>Remote Desktop Software</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>power-ping</id>
+    <version>1.3.3</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/powerping</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>power-ping</title>
+    <authors>Matthew Carney</authors>
+    <projectUrl>https://github.com/Killeroo/PowerPing</projectUrl>
+    <projectSourceUrl>https://github.com/Killeroo/PowerPing</projectSourceUrl>
+    <tags>powerping commandline ping</tags>
+    <summary>Small improved command line ICMP ping program lovingly inspired by windows and linux, written in C#.</summary>
+    <description>Small improved command line ICMP ping program lovingly inspired by windows and linux, written in C#.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>starwindv2vconvert</id>
+    <version>9.0.1.268</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/starwindv2vconvert</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>StarWind V2V Converter / P2V Migrator (Install)</title>
+    <authors>Starwind</authors>
+    <projectUrl>https://www.starwindsoftware.com/starwind-v2v-converter</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/starwindconverter.png</iconUrl>
+    <copyright>© 2022 StarWind Software Inc.</copyright>
+    <docsUrl>https://knowledgebase.starwindsoftware.com/</docsUrl>
+    <tags>starwindv2vconvert virtual machine converter</tags>
+    <summary>StarWind V2V Converter / P2V Migrator is a free software for cloning and transforming VMs from one format to another, as well as converting physical machines into virtual ones. It is utilized when migration or Hypervisor Switch is required. Compared to the typical converters built into hypervisors, StarWind V2V Converter / P2V Migrator offers bi-directional conversion between all the major VM formats: VMDK, VHD/VHDX (Windows Repair Mode aware), QCOW2, and StarWind native IMG.</summary>
+	<description>StarWind V2V Converter / P2V Migrator is a free software for cloning and transforming VMs from one format to another, as well as converting physical machines into virtual ones. It is utilized when migration or Hypervisor Switch is required. Compared to the typical converters built into hypervisors, StarWind V2V Converter / P2V Migrator offers bi-directional conversion between all the major VM formats: VMDK, VHD/VHDX (Windows Repair Mode aware), QCOW2, and StarWind native IMG.</description>
+    <releaseNotes>https://www.starwindsoftware.com/v2v-converter-release-notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

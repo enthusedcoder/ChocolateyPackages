@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wimlib</id>
+    <version>1.12.0</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/wimlib</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>wimlib (Install)</title>
+    <authors>Eric Biggers</authors>
+    <projectUrl>https://wimlib.net/index.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/76210b2b/icons/wimlib.png</iconUrl>
+    <copyright>2012-2017</copyright>
+    <projectSourceUrl>https://wimlib.net/git/?p=wimlib;a=summary</projectSourceUrl>
+    <tags>wimlib command line</tags>
+    <summary>wimlib is an open source, cross-platform library for creating, extracting, and modifying Windows Imaging (WIM) archives.</summary>
+    <description>wimlib is an open source, cross-platform library for creating, extracting, and modifying Windows Imaging (WIM) archives. WIM is a file archiving format, somewhat comparable to ZIP (and many other file archiving formats); but unlike ZIP, it allows storing various Windows-specific metadata, allows storing multiple "images" in a single archive, automatically deduplicates all file contents, and supports optional solid compression to get a better compression ratio. wimlib and its command-line frontend wimlib-imagex provide a free and cross-platform alternative to Microsoft's WIMGAPI, ImageX, and DISM.
+
+Among other things, wimlib:
+
+* Provides fast and reliable file archiving on Windows and on UNIX-like systems such as Mac OS X and Linux.
+* Allows users of non-Windows operating systems to read and write Windows Imaging (WIM) files.
+* Supports correct archiving of files on Windows-style filesystems such as NTFS without making common mistakes such as not properly handling ACLs, file attributes, links, and named data streams.
+* Allows deployment of Windows operating systems from non-Windows operating systems such as Linux.
+* Provides independent, high quality open source compressors and decompressors for several compression formats used by Microsoft which are not as well known as more open formats, and are prone to be re-used in different applications and file formats (not just WIM).</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    </files>
+</package>

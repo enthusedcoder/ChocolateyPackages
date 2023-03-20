@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gocontactsyncmod</id>
+    <version>3.11.16</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/gocontactsyncmod</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>GO Contact Sync Mod</title>
+    <authors>big-r,createsoftware,cybdis,floriwan,obelix30</authors>
+    <projectUrl>https://sourceforge.net/projects/googlesyncmod/</projectUrl>
+    <iconUrl>https://glcdn.githack.com/whiggs/chocolateypackages/raw/master/icons/gocontact.png</iconUrl>
+    <projectSourceUrl>https://sourceforge.net/p/googlesyncmod/code/HEAD/tree/</projectSourceUrl>
+    <docsUrl>https://sourceforge.net/p/googlesyncmod/faq/?source=navbar</docsUrl>
+    <tags>gocontactsyncmod google contacts sync outlook</tags>
+    <summary>GO Contact Sync Mod synchronizes your Microsoft Outlook contacts with your Google Mail address book, including pictures, categories and notes.</summary>
+    <description>GO Contact Sync Mod synchronizes your Microsoft Outlook contacts with your Google Mail address book, including pictures, categories and notes.
+Since version 3.7.0 it also syncs your Outlook Calendar Appointments on demand to Google Calendar. This Mod fork adds many enhancements and bug fixes to the obviously dead project 'Go Contact Sync'.</description>
+	<dependencies>
+      <dependency id="dotnet4.6.1" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

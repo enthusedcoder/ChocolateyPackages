@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gmvault</id>
+    <version>1.9.1</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/gmvault</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>gmvault (Install)</title>
+    <authors>Guillaume Aubert</authors>
+    <projectUrl>http://gmvault.org/index.html#overview</projectUrl>
+    <iconUrl>http://gmvault.org/assets/img/gmvault-icon-512.png</iconUrl>
+    <licenseUrl>https://github.com/gaubert/gmvault/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/gaubert/gmvault</projectSourceUrl>
+    <docsUrl>http://gmvault.org/install.html</docsUrl>
+    <bugTrackerUrl>https://github.com/gaubert/gmvault/issues</bugTrackerUrl>
+    <tags>gmvault gmail google mail backup</tags>
+    <summary>Gmvault is a tool for backing up your gmail account and never lose email correspondence.</summary>
+    <description>Gmvault is a tool for backing up your gmail account and never lose email correspondence.</description>
+    <releaseNotes># Release Information
+
+Gmvault v1.9.1 includes the following new features and bug fixes:
+
+### Bug Fixes:
+
+- Fix bug preventing to use encryption [Github issue #84].
+- Fix many character encoding bugs in emails [Github issue #211, #213, #152, #218].
+- Fix encoding bug in labels [Github issue #180].
+- Fix encoding bug in commandline parameters [Github issue #195].
+- Fix bug preventing email containing null characters to be restored [Github #212].
+- Fix bug corrupting oauth2 credential when saved in file [Github #209].
+
+## Shout-outs
+
+Shout out to everybody who continued supporting the project while I was away.
+Also shoutouts to all the users that sent me support emails and raised issues by emails.
+Please keep buzzing about Gmvault and let me know if you discover an issue (go [here](http://gmvault.org/report_pb.html) to report the issue).</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

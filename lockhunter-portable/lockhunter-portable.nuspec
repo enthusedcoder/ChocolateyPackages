@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lockhunter-portable</id>
+    <version>3.4.2</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/lockhunter-portable</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>lockhunter-portable</title>
+    <authors>Crystal Rich Ltd</authors>
+    <projectUrl>https://lockhunter.com/</projectUrl>
+    <iconUrl>https://glcdn.rawgit.org/whiggs/chocolateypackages/master/icons/lockhunter_icon_large_128_sh.png</iconUrl>
+    <copyright>Crystal Rich Ltd © 2021</copyright>
+    <tags>lockhunter-portable lockhunter portable</tags>
+    <summary>LockHunter is a foolproof file unlocker.  This is a portable version of lockhunter.
+It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake.</summary>
+    <description>LockHunter is a foolproof file unlocker.  This is a portable version of lockhunter.
+It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake.
+
+### Package Specific
+#### Package Parameters
+The following package parameters can be set:
+
+	* `/Path:` - the path that lockhunter portable should be deployed to = defaults to "`C:\LockHunter Portable`"
+	
+</description>
+	<dependencies>
+      <dependency id="chocolatey-core.extension" />
+	  <dependency id="autoit.commandline" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

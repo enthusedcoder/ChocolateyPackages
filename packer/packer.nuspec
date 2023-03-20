@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>packer</id>
+    <version>1.2.5</version>
+    <packageSourceUrl>https://github.com/whiggs/ChocolateyPackages/tree/master/packer</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>packer (Install)</title>
+    <authors>Hashicorp</authors>
+    <projectUrl>https://www.packer.io/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/whiggs/ChocolateyPackages/f703d9f1/icons/packer.png</iconUrl>
+    <tags>packer vm</tags>
+    <summary>Packer is a tool for building identical machine images for multiple platforms from a single source configuration.</summary>
+    <description>Packer is a tool for building identical machine images for multiple platforms from a single source configuration.
+
+Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer comes out of the box with support for many platforms, the full list of which can be found at https://www.packer.io/docs/builders/index.html.
+
+Support for other platforms can be added via plugins.
+
+The images that Packer creates can easily be turned into Vagrant boxes.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

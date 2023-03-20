@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>open-policy-agent</id>
+    <version>0.28.0</version>
+    <packageSourceUrl>https://gitlab.com/whiggs/chocolateypackages/-/tree/master/open-policy-agent</packageSourceUrl>
+    <owners>whiggs</owners>
+    <title>open-policy-agent</title>
+    <authors>Styra</authors>
+    <projectUrl>https://www.openpolicyagent.org/</projectUrl>
+    <iconUrl>https://d33wubrfki0l68.cloudfront.net/a5bf5cefceefdba8ab3a9297fddab246355169a2/4a6f4/img/logo-white.png</iconUrl>
+    <licenseUrl>https://github.com/open-policy-agent/opa/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/open-policy-agent/opa</projectSourceUrl>
+    <docsUrl>https://www.openpolicyagent.org/docs/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/open-policy-agent/opa/issues</bugTrackerUrl>
+    <tags>open-policy-agent policy</tags>
+    <summary>The Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.</summary>
+    <description>The Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.
+
+OPA is hosted by the Cloud Native Computing Foundation (CNCF) as an incubating-level project.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
